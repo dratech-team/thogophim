@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'thogophim';
+  loading = true;
+
+  constructor() {
+    setTimeout(() => {
+      this.loading = false;
+    }, Math.random() * (2000 - 1500) + 2000);
+  }
 }
