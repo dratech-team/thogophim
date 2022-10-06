@@ -4,13 +4,14 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {SharedModule} from "./shared/components/shared.module";
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import {NzMenuModule} from "ng-zorro-antd/menu";
 
 @NgModule({
   imports: [
     NzLayoutModule,
     BrowserModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   declarations: [
     AppComponent,
