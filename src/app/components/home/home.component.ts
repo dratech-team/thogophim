@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  majors = ['UI/UX Designer', 'Web/Mobile Developer', 'Youtuber'];
+  majors = ['UI/UX Designer', 'Web Developer', 'Mobile App Developer'];
   major = this.majors[0];
 
   constructor() {

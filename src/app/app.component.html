@@ -1,26 +1,59 @@
-<main class="content">
+<!-- mobile header -->
+<header class="mobile-header-1">
+  <div class="container">
+    <!-- menu icon -->
+    <div class="menu-icon d-inline-flex mr-4">
+      <button>
+        <span></span>
+      </button>
+    </div>
+    <!-- logo image -->
+    <div class="site-logo">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="Bolby">
+      </a>
+    </div>
+  </div>
+</header>
+<!-- desktop header -->
+<header class="desktop-header-1 d-flex align-items-start flex-column">
 
+  <!-- logo image -->
+  <div class="site-logo" style="align-self: center">
+    <a href="index.html">
+      <img src="assets/logo.png" alt="Bolby" width="70">
+    </a>
+  </div>
+
+  <!-- main menu -->
+  <nav>
+    <ul class="vertical-menu scrollspy">
+      <li class="active"><a href="#home"><i class="icon-home"></i>Home</a></li>
+      <li><a href="#about"><i class="icon-user-following"></i>About</a></li>
+      <!--      <li><a href="#services"><i class="icon-briefcase"></i>Services</a></li>-->
+      <li><a href="#experience"><i class="icon-graduation"></i>Experience</a></li>
+      <li><a href="#works"><i class="icon-layers"></i>Projects</a></li>
+      <li><a href="#blog"><i class="icon-note"></i>Blog</a></li>
+      <li><a href="#contact"><i class="icon-bubbles"></i>Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- site footer -->
+  <div class="footer">
+    <!-- copyright text -->
+    <span class="copyright">© 2020 Bolby Template.</span>
+  </div>
+
+</header>
+<main class="content">
   <!-- section home -->
   <app-home></app-home>
-
   <!-- section about -->
   <app-about></app-about>
-
-  <!-- section services -->
-  <app-services></app-services>
-
-  <!-- section experience -->
+  <!--  <app-services></app-services>-->
   <app-experience></app-experience>
-
-  <!-- section works -->
   <app-project></app-project>
-
-  <!-- section blog -->
   <app-blog></app-blog>
-
-  <!-- section contact -->
   <app-contact></app-contact>
-
-  <div class="spacer" data-height="96"></div>
-
+  <div class="spacer" style="height: 96px"></div>
 </main>

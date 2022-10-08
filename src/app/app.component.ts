@@ -13,4 +13,10 @@ export class AppComponent {
       this.loading = false;
     }, Math.random() * (2000 - 1500) + 2000);
   }
+
+  scroll(element: string) {
+    const el = document.getElementById(element);
+    console.log(el, element)
+    el && el.scrollIntoView();
+  }
 }

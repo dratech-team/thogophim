@@ -10,7 +10,7 @@ export class ExperienceComponent implements OnInit {
     {
       time: '2015 - 2020',
       title: 'Academy of Cryptography Techniques',
-      description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.'
+      description: 'Engineer\'s degree in Information Security.'
     }
   ];
 
@@ -18,20 +18,17 @@ export class ExperienceComponent implements OnInit {
     {
       time: '12/2019 - 04/2020',
       title: 'FPT Software/SGN',
-      position: 'Trainee',
-      description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.'
+      description: 'Software Engineer (Mobile App)'
     },
     {
       time: '4/2020 - 06/2021',
       title: 'Gonosen International',
-      position: 'Flutter Developer',
-      description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.'
+      description: 'Software Engineer (Mobile App)'
     },
     {
       time: '6/2021 - Present',
       title: 'FPT Software/UIH',
-      position: 'Web Developer',
-      description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.'
+      description: 'Software Engineer (Web/Desktop App)'
     }
   ];
 

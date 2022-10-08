@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  about = 'I am Long, Senior Software Engineer from Quy Nhon, Viet Nam. I have rich experience in website/mobile application design and building and customization.';
+  about = 'I am Long, Software Engineer from Quy Nhon, Viet Nam. I have rich experience in website/mobile application design and building and customization.';
   factItems = [
     {
       icon: 'icon-fire',
@@ -32,16 +32,19 @@ export class AboutComponent implements OnInit {
   ];
   skills = [
     {
-      title: 'Development',
-      value: 80
+      title: 'UI/UX Design',
+      value: 60,
+      color: '#FFD15C'
     },
     {
-      title: 'Development',
-      value: 80
+      title: 'Web Development',
+      value: 80,
+      color: '#FF4C60'
     },
     {
-      title: 'Development',
-      value: 80
+      title: 'Mobile App Development',
+      value: 75,
+      color: '#6C6CE5'
     }
   ];
 
